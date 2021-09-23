@@ -1,0 +1,41 @@
+#end-text {
+  color: #fff;
+  margin-bottom: 3rem;
+}
+.end-form-container {
+  width: 100%;
+  max-width: 30rem;
+}
+
+input {
+  margin-bottom: 1rem !important;
+  width: 25rem !important;
+  padding: 1.5rem !important;
+  font-size: 1.8rem !important;
+  border: none !important;
+  border-radius: 4px;
+  box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5) !important;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+#username {
+  margin-bottom: 3rem;
+  width: 100%;
+  outline: none;
+}
+#end-text {
+  font-size: 2.4rem;
+  color: #fff;
+  text-align: center;
+}
+#saveScoreBttn {
+  border: none;
+}
+.fa-home {
+  margin-left: 1rem;
+  font-size: 2rem;
+  color: rgb(28, 26, 26);
+}

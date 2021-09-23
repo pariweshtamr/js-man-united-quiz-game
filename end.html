@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>End Page</title>
+    <script
+      src="https://kit.fontawesome.com/3d6f85e098.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./Styles/index.css" />
+    <link rel="stylesheet" href="./Styles/end.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container d-flex justify-content-center align-items-center">
+        <div
+          id="end"
+          class="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h1 id="finalScore">0</h1>
+          <form
+            class="end-form-container d-flex flex-column align-items-center"
+          >
+            <h2 id="end-text">Enter your name below to save your score!</h2>
+            <input
+              type="text"
+              name="name"
+              id="username"
+              placeholder="Enter Your Name"
+            />
+            <button
+              class="bttn"
+              id="saveScoreBttn"
+              type="submit"
+              onclick="saveHighScore(event)"
+              disabled
+            >
+              Save
+            </button>
+          </form>
+          <a href="./game.html" class="bttn">Play Again</a>
+          <a href="/" class="bttn">Go Home<i class="fas fa-home"></i></a>
+        </div>
+      </div>
+    </div>
+    <script src="./end.js"></script>
+  </body>
+</html>

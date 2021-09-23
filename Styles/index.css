@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+
+:root {
+  --background-color: rgb(29, 26, 26);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 0.8rem;
+  font-family: "Nova Square", cursive;
+  font-weight: bold;
+}
+h2 {
+  font-size: 4.2rem;
+  margin-bottom: 4rem;
+}
+.main {
+  background-color: var(--background-color);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../assets/united.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: 80rem !important;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.container h1 {
+  color: #fff;
+  font-size: 5.5rem;
+  margin-bottom: 5rem;
+}
+.hidden {
+  display: none;
+}
+.bttn {
+  font-size: 2.4rem;
+  padding: 2rem 0;
+  width: 25rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: rgb(28, 26, 26);
+  background: rgb(0, 102, 255);
+  border-radius: 4px;
+}
+.bttn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+  transition: transform 150ms;
+  transform: scale(1.03);
+}
+.bttn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+#highscore-bttn {
+  background: rgb(240, 221, 6) 100%;
+}
+#highscore-bttn:hover {
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0, 0.5);
+}
+.fa-crown {
+  font-size: 2.4rem;
+  margin-left: 1rem;
+}
